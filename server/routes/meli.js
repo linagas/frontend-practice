@@ -50,7 +50,6 @@ router.get('/',  (async (req,res) =>{
 
 router.get('/:id', (async (req, res) => {
     const {id} = req.params
-    console.log(id)
 
     const urlSingleItem = meliApi.get(`/items/${id}`)
     const urlDescription =  meliApi.get(`/items/${id}/description`)
