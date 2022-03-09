@@ -24,7 +24,7 @@ function App() {
     <HelmetProvider>
       <title>Mercado Libre Chile - Envíos Gratis en el día</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0"></meta>
-      <meta charset="utf-8"></meta>
+      <meta charSet="utf-8"></meta>
       <meta name="description" content="Compre productos con Envío Gratis en el día en Mercado Libre Chile. Encuentre miles de marcas y productos a precios increíbles." data-head-react="true"></meta>
       <meta property="og:image" content="https://http2.mlstatic.com/static/org-img/homesnw/mercado-libre.png?v=2" data-head-react="true"></meta>
         <ThemeProvider theme={theme}>
